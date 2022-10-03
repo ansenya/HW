@@ -6,10 +6,10 @@ public class third_2 {
         int max = 999999999;
         int a = in.nextInt();
         while (a!=0){
-            a = in.nextInt();
             if (a > 0 & a<max) {
                 max=a;
             }
+            a = in.nextInt();
         }
 
         System.out.println(max);
